@@ -1,0 +1,27 @@
+{
+  "name": "myt-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vite.config.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhailYT/myt-landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/KhailYT/myt-landing/issues"
+  },
+  "homepage": "https://github.com/KhailYT/myt-landing#readme",
+  "devDependencies": {
+    "vite": "^7.3.1"
+  }
+}
