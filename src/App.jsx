@@ -2,6 +2,10 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { ArrowRight, MoveUpRight, Zap, Target, Layers, Cpu, Globe, CheckCircle2 } from 'lucide-react';
 
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+gsap.registerPlugin(ScrollTrigger);
+
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
 
