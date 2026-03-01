@@ -1,5 +1,9 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState, useLayoutEffect } from 'react';
+import { createRoot } from 'react-dom/client';
+import gsap from 'gsap';
 import { 
+  Menu, 
+  X,
   ArrowRight, 
   Cpu, 
   Globe, 
@@ -7,8 +11,11 @@ import {
   Target, 
   Layers, 
   Phone, 
-  Mail 
+  Mail,
+  Shield,
+  ChevronRight 
 } from 'lucide-react';
+import './index.css';
 
 /**
  * ARCHITECTURAL NOTE:
