@@ -15,7 +15,7 @@ import {
   Shield,
   ChevronRight 
 } from 'lucide-react';
-import './index.css';
+
 
 /**
  * ARCHITECTURAL NOTE:
